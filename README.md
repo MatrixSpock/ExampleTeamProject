@@ -28,5 +28,5 @@ Data sets used are:
 * flights: day of the month on which the flight was taken, day of the week on which the flight was taken, the flight carrier, airport ID for the departure site, airport ID for the arrival site, the number of minutes a departure was delayed (-63 to 1863), and the number of minutes an arrival was delayed (-94 to 1845)
 * airports: airport ID, the city the airport is located in, the state the airport is located in, and the name of the airport
 * statelatlong: state abbreviation for the U.S., latitude, longitude, and city
-## Background
+### Background
 In the united states, the most popular mode of public transportation for long distance travel is airplanes. As an airline passenger, being able to view flight status is an important component of feeling prepared and secure during travel. To help passengers have access to this information, a dashboard with visualizations was created to help with identifying flight status and making informed decisions when choosing specifics like airline type, departure and arrival location, and day of travel for their flights. 
