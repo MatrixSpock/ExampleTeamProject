@@ -2,8 +2,8 @@
 # The ELT based United States Airline Flight Status Dashboard Pipeline
 ## Installation Directions 
 1. Download the following datasets: “flights”, “airports”, and “statelatlong”. These datasets can be downloaded from  Kaggle: 
-* Flights & Airports: https://www.kaggle.com/datasets/tylerx/flights-and-airports-data?select=flights.csv
-* statelatlong:  https://www.kaggle.com/datasets/washimahmed/usa-latlong-for-state-abbreviations
+    * Flights & Airports: https://www.kaggle.com/datasets/tylerx/flights-and-airports-data?select=flights.csv
+    * statelatlong:  https://www.kaggle.com/datasets/washimahmed/usa-latlong-for-state-abbreviations
 2.  In SQL Workbench create a schema titled “us_airlines” and load in the three datasets. 
 3. Download the project code from this GitHub repository and run cells. This can be accomplished by cloning the repository onto your device using the commands below: 
     * git init
