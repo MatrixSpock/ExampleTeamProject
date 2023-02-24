@@ -1,11 +1,13 @@
 # 507_FinalProject_Team5
 # The ELT based United States Airline Flight Status Dashboard Pipeline
 ## Installation Directions 
-To use this project, first clone the repo on your device using the command below:
-
-git init
-
-git clone https://github.com/edwardam5/506_FinalProject_Team5.git
+1. Download the following datasets: “flights”, “airports”, and “statelatlong”. These datasets can be downloaded from  Kaggle: 
+* Flights & Airports: https://www.kaggle.com/datasets/tylerx/flights-and-airports-data?select=flights.csv
+* statelatlong:  https://www.kaggle.com/datasets/washimahmed/usa-latlong-for-state-abbreviations
+2.  In SQL Workbench create a schema titled “us_airlines” and load in the three datasets. 
+3. Download the project code from this GitHub repository and run cells. This can be accomplished by cloning the repository onto your device using the commands below: 
+    * git init
+    * git clone https://github.com/edwardam5/507_FinalProject_Team5.git
 ## Contributors 
 Summer Purschke, Minsu Kim, and Anusia Edward
 ## Methods Used 
@@ -16,6 +18,7 @@ Summer Purschke, Minsu Kim, and Anusia Edward
 ## Technologies 
 * MySQL
 * Python via Jupyter Notebook
+* Visual Studio 
 ## Project Introduction
 The goal of this project is to help air travel passengers access and understand air travel data better by building a data pipeline project to process air travel data. The dashboard pipeline has a total of five different visualizations. The dashboards consist of (1) an interactive table will pull information regarding that particular flight based on a given flight number, (2) an interactive map with various features, (3) a bar chart showing the range of departure times as well as arrival times in terms of how many minutes early or late the flights are per each airplane carrier, (4) an interactive bar chart of the average departure time in minutes by day of the week, and (5) an interactive bar graph depicting the average arrival time in minutes per each day of the week.
 
