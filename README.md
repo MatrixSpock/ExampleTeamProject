@@ -33,3 +33,6 @@ Data sets used are:
 * statelatlong: state abbreviation for the U.S., latitude, longitude, and city
 ### Background
 In the united states, the most popular mode of public transportation for long distance travel is airplanes. As an airline passenger, being able to view flight status is an important component of feeling prepared and secure during travel. To help passengers have access to this information, a dashboard with visualizations was created to help with identifying flight status and making informed decisions when choosing specifics like airline type, departure and arrival location, and day of travel for their flights. 
+
+## Video Presentation
+Link: https://youtu.be/LFSEu1k96hY
